@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+html {
+   scroll-behavior: smooth;
+}
+
+nav {
+   background-color: #00a2c6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+header {
+   display: inline;
+}
+
+body {
+   font-family: "Quicksand", sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.logo {
+   color: #fff;
+   font-weight: 700;
+   text-align: center;
+   font-size: 2em;
+   text-transform: uppercase;
+}
+
+nav {
+   background-color: #133b5c;
+}
+
+nav ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+nav ul li a:hover {
+   background: #fff;
+   color: #064663;
+}
+
+.profile header {
+   text-align: center;
+   background-color: white;
+}
+
+.profile img {
+   width: 200px;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.profile img {
+   border-radius: 50%;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #041c32;
+   text-align: center;
+   font-weight: bold;
+}
+
+/*  ini yang baru  */
+.parallax {
+   width: 100%;
+   height: 100%;
+   color: white;
+   font-weight: 700;
+   text-decoration: none;
+   text-align: center;
+   font-size: 1vw;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   padding: 150px;
+   margin-top: 0px;
+
+   background-color: rgba(35, 35, 35, 1);
+   background-blend-mode: multiply;
+
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.info_tambah {
+   text-align: center;
+   align-items: center;
+}
+
+.icon {
+   letter-spacing: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+      width: 100%;
+      padding: 0;
+   }
+}
